@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // The floating dev badge covers the bottom-left of the duty sheet on phones.
+  devIndicators: false,
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
